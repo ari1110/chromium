@@ -1,0 +1,19 @@
+{
+    "name": "Chrome Dependencies",
+    "id": "chrome-deps",
+    "version": "1.0.0",
+    "description": "Installs common Chrome-related dependencies required for browser automation and testing",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select version of Chrome dependencies to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
