@@ -56,8 +56,8 @@ else
 fi
 
 #check additional dependencies for Electron Support
-check_package "dbus" "libgbm1 is installed"
-check_package "dbus-x11" "libnss3 is installed"
+check_package "dbus" "dbus is installed"
+check_package "dbus-x11" "dbus-x11 is installed"
 check_package "libgl1-mesa-glx" "libgl1-mesa-glx is installed"
 check_package "libgl1-mesa-dri" "libgl1-mesa-dri is installed"
 check_package "mesa-utils" "mesa-utils is installed"
