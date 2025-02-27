@@ -22,11 +22,17 @@ This feature installs the following packages:
 - libnss3
 - sudo
 - jq
+- dbus
+- dbus-x11
+- mesa-utils
+- etc.
+
 
 These dependencies are commonly required for running Chrome/Chromium in headless mode, particularly useful for:
 - Browser automation testing
 - Puppeteer scripts
 - Other headless browser operations
+- Electron supported configurations
 
 ## Options
 
