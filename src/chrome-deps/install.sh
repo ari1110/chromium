@@ -36,7 +36,12 @@ apt-get install -y \
     libgbm1 \
     libnss3 \
     sudo \
-    jq
+    jq \
+    dbus \
+    dbus-x11 \
+    libgl1-mesa-glx \
+    libgl1-mesa-dri \
+    mesa-utils
 
 # Clean up
 apt-get clean
